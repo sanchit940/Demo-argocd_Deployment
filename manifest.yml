@@ -10,6 +10,10 @@ spec:
       image: nginx:latest
       ports:
         - containerPort: 80
+    - name: httpd-container
+      image: httpd:latest
+      ports:
+        - containerPort: 443
 
 
 
